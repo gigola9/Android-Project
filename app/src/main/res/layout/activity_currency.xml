@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.Currency">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:background="@drawable/round_button"
+        android:textAllCaps="false"
+        android:text="Currency"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@mipmap/money"
+        android:id="@+id/goToCurrencyConverter"/>
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:background="@drawable/round_button"
+        android:textAllCaps="false"
+        android:text="Chart"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@mipmap/graphic"
+        android:id="@+id/goToChart"/>
+
+</LinearLayout>
